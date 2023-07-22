@@ -23,8 +23,8 @@ const SingleTrain = () => {
 
 
   return (
-    <div className="h-screen bg-[#58e2f5]">
-      <div className="inline-flex p-3 m-10 text-white bg-[#0204fd]">
+    <div className="h-screen bg-[#f560d4]">
+      <div className="inline-flex p-3 m-10 text-white bg-[#070707]">
         <h1>
           {" "}
           <Link to="/">Go Back </Link>{" "}
@@ -35,27 +35,27 @@ const SingleTrain = () => {
         <table class="w-full h-full flex justify-center ">
           <thead>
             <tr className="flex flex-col">
-              <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-[#daf8ff]">
+              <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-[#f4b1e5]">
                 Train Name
               </th>
 
-              <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-[#daf8ff]">
+              <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-[#f4b1e5]">
                 Train Number
               </th>
 
-              <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-[#daf8ff]">
+              <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-[#f4b1e5]">
                 Departure Time
               </th>
 
-              <th className="text-sm uppercase font-semibold text-grey-darker p-3 bg-[#daf8ff] text-center">
+              <th className="text-sm uppercase font-semibold text-grey-darker p-3 bg-[#f4b1e5] text-center">
                 Seats Available
               </th>
 
-              <th className="text-sm uppercase font-semibold text-grey-darker p-3 bg-[#daf8ff] text-center">
+              <th className="text-sm uppercase font-semibold text-grey-darker p-3 bg-[#f4b1e5] text-center">
                 Price (Sleeper)
               </th>
 
-              <th className="text-sm uppercase font-semibold text-grey-darker p-3 bg-[#daf8ff] text-center">
+              <th className="text-sm uppercase font-semibold text-grey-darker p-3 bg-[#f4b1e5] text-center">
                 Price (AC)
               </th>
             </tr>
@@ -63,27 +63,27 @@ const SingleTrain = () => {
 
           <tbody className="align-baseline">
             <tr className="group cursor-pointer flex flex-col">
-              <td className="text-sm p-3 whitespace-no-wrap bg-[#daf8ff]">
+              <td className="text-sm p-3 whitespace-no-wrap bg-[#f4b1e5]">
                 {TrainData?.trainName}
               </td>
 
-              <td className="text-sm p-3 whitespace-no-wrap bg-[#daf8ff]">
+              <td className="text-sm p-3 whitespace-no-wrap bg-[#f4b1e5]">
                 {TrainData?.trainNumber}
               </td>
 
-              <td className="text-sm p-3 whitespace-no-wrap bg-[#daf8ff]">
+              <td className="text-sm p-3 whitespace-no-wrap bg-[#f4b1e5]">
                 {TrainData?.departureTime?.Hours}:{TrainData?.departureTime?.Minutes}
               </td>
 
-              <td className="text-sm p-3 whitespace-no-wrap bg-[#daf8ff]">
+              <td className="text-sm p-3 whitespace-no-wrap bg-[#f4b1e5]">
                 {TrainData?.seatsAvailable?.sleeper + TrainData?.seatsAvailable?.AC}
               </td>
 
-              <td className="text-sm p-3 whitespace-no-wrap bg-[#daf8ff]">
+              <td className="text-sm p-3 whitespace-no-wrap bg-[#f4b1e5]">
                 {TrainData?.price?.sleeper}
               </td>
 
-              <td className="text-sm p-3 whitespace-no-wrap bg-[#daf8ff]">
+              <td className="text-sm p-3 whitespace-no-wrap bg-[#f4b1e5]">
                 {TrainData?.price?.AC}
               </td>
             </tr>

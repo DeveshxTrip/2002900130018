@@ -7,12 +7,12 @@ const generate = async () => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      companyName: "Aviral Enterprises",
-      clientId: "f44a769b-4799-4e74-aa88-d27c8efe5f8a",
-      ownerName: "Aviral Sharma",
-      ownerEmail: "aviral2020it015@abesit.edu.in",
-      rollNo: "2002900130014",
-      clientSecret: "bQiLPJINEKzHKmJB",
+      companyName: "Devesh Train Service",
+      clientId: "64db8446-6237-442b-ba81-ffe66da2ed3b",
+      ownerName: "Devesh",
+      ownerEmail: "devesh2020it005@abesit.edu.in",
+      rollNo: "2002900130018",
+      clientSecret: "iQtPiPomlXcvuojf",
     }),
   });
   const json = await res.json();

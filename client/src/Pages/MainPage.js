@@ -15,32 +15,32 @@ const MainPage = () => {
   }, []);
 
   return (
-    <div className="h-full bg-[#58e2f5]">
+    <div className="h-full bg-[#f560d4]">
       <div className="text-center text-white font-extrabold text-3xl p-3 rounded-md">
-        <h1> Aviral Train Services </h1>
+        <h1> Devesh Train Service </h1>
       </div>
       <div>
         <div className="max-w-4xl m-auto mt-6">
           <table className="w-full table-collapse">
             <thead>
               <tr>
-                <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-gray-200">
+                <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-[#f4b1e5]">
                   Train Name
                 </th>
 
-                <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-gray-200">
+                <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-[#f4b1e5]">
                   Train Number
                 </th>
 
-                <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-gray-200">
+                <th className="text-sm text-left uppercase font-semibold text-grey-darker p-3 bg-[#f4b1e5]">
                   Departure Time
                 </th>
 
-                <th className="text-sm uppercase font-semibold text-grey-darker p-3 bg-gray-200 text-center">
+                <th className="text-sm uppercase font-semibold text-grey-darker p-3 bg-[#f4b1e5] text-center">
                   Seats Available
                 </th>
 
-                <th className="text-sm uppercase font-semibold text-grey-darker p-3 bg-gray-200">
+                <th className="text-sm uppercase font-semibold text-grey-darker p-3 bg-[#f4b1e5]">
                   More Details
                 </th>
               </tr>
@@ -48,7 +48,7 @@ const MainPage = () => {
 
             {TrainData.map((data, index) => (
               <tbody data-index={index} className="align-baseline" key={index}>
-                <tr className="group cursor-pointer hover:bg-[#daf8ff]">
+                <tr className="group cursor-pointer hover:bg-[#f8c6f5]">
                   <td className="text-sm p-3 border-t border-grey-light whitespace-no-wrap">
                     {data.trainName}
                   </td>
@@ -66,7 +66,7 @@ const MainPage = () => {
                   </td>
 
                   <td className="p-3 border-t border-grey-light whitespace-no-wrap text-sm group-hover:visible">
-                    <button className="bg-[#0204fd] p-3 rounded-lg text-white">
+                    <button className="bg-[#000000] p-3 rounded-lg text-white">
                       <Link to={`/${data?.trainNumber}`}> Get Details </Link>
                     </button>
                   </td>

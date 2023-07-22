@@ -4,8 +4,8 @@ const generate = require("../../utils/generateToken");
 let tokenDetails = {
   token_type: "Bearer",
   access_token:
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTAwMDYyNTAsImNvbXBhbnlOYW1lIjoiQXZpcmFsIEVudGVycHJpc2VzIiwiY2xpZW50SUQiOiJmNDRhNzY5Yi00Nzk5LTRlNzQtYWE4OC1kMjdjOGVmZTVmOGEiLCJvd25lck5hbWUiOiIiLCJvd25lckVtYWlsIjoiIiwicm9sbE5vIjoiMjAwMjkwMDEzMDAxNCJ9.xXC_TfhoCdImhvNHuYs3v0OPYgI77usXbtipDWly5Z8",
-  expires_in: 1690006250,
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTAwMDM3NzUsImNvbXBhbnlOYW1lIjoiZGV2ZXNoIFRyYWluIFNlcnZpY2UiLCJjbGllbnRJRCI6IjY0ZGI4NDQ2LTYyMzctNDQyYi1iYTgxLWZmZTY2ZGEyZWQzYiIsIm93bmVyTmFtZSI6IiIsIm93bmVyRW1haWwiOiIiLCJyb2xsTm8iOiIyMDAyOTAwMTMwMDE4In0.ZT7ujCMZHjnx7pfB-4aDQUddjdD0sHZTMuOWabNT334",
+  expires_in: 1690003775,
 };
 
 const app = express.Router();
